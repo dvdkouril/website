@@ -145,8 +145,8 @@
 
 <h1>small things i've made</h1>
 <p>
-	<b>i love making stuff.</b> this is a list of small (or big) things i've created
-	recently.
+	<b>i love chasing little ideas and creating stuff.</b> this is a list of small
+	(or big) things i've created recently.
 </p>
 <p>
 	mostly things that were not my main work projects, but i'm still proud of.
