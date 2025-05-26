@@ -17,6 +17,11 @@
 
 <div id="container">
 	<h2>work.</h2>
+	<p>
+		Besides these larger projects, I keep <a href="/thingsimade"
+			>a list of smaller things I've made</a
+		>
+	</p>
 	<h3>postdoc work.</h3>
 	<ul>
 		<li>gosling integration</li>
