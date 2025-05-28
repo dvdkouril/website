@@ -9,6 +9,7 @@
 		}[];
 		tags: Tags[];
 		year: number;
+		image?: string;
 	};
 
 	type Tags = "hidive" | "personal" | "visitlab";
@@ -60,6 +61,7 @@
 				},
 			],
 			tags: ["hidive"],
+			image: "images/thingsimade/zoom-background.png",
 			year: 2024,
 		},
 		{
@@ -82,6 +84,7 @@
 				},
 			],
 			tags: ["personal"],
+			image: "images/thingsimade/piechart.png",
 			year: 2025,
 		},
 		{
@@ -119,6 +122,7 @@
 				},
 			],
 			tags: ["visitlab"],
+			image: "images/thingsimade/hierarchical-selections.png",
 			year: 2023,
 		},
 		{
@@ -143,18 +147,33 @@
 	const stuff2025 = stuff.filter((i) => i.year === 2025);
 </script>
 
-<h1>small things i've made</h1>
-<p>
-	<b>i love chasing little ideas and creating stuff.</b> this is a list of small
-	(or big) things i've created recently.
-</p>
-<p>
-	mostly things that were not my main work projects, but i'm still proud of.
-	some personal stuff omitted.
-</p>
-<h2>2025</h2>
-<StuffList stuff={stuff2025} />
-<h2>2024</h2>
-<StuffList stuff={stuff2024} />
-<h2>2023</h2>
-<StuffList stuff={stuff2023} />
+<div id="container">
+	<h1>small things i've made</h1>
+	<p>
+		<b>i love chasing little ideas</b> and creating stuff with a shorter turnaround.
+		however, it is easy to lose track of these mini-projects.
+	</p>
+	<p>
+		this is a list of small (or big) things i've created recently. mostly
+		things that were not my main work projects, but i'm still proud of. some
+		personal stuff omitted.
+	</p>
+	<h2>2025</h2>
+	<StuffList stuff={stuff2025} />
+	<h2>2024</h2>
+	<StuffList stuff={stuff2024} />
+	<h2>2023</h2>
+	<StuffList stuff={stuff2023} />
+</div>
+
+<style>
+	* {
+		font-family: "Dosis", sans-serif;
+	}
+
+	#container {
+		width: 100%;
+		max-width: 800px;
+		font-size: 110%;
+	}
+</style>
