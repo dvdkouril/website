@@ -88,6 +88,17 @@
 			year: 2025,
 		},
 		{
+			title: "Cambridge and Brno weather comparison",
+			links: [
+				{
+					link: "https://observablehq.com/d/15e1de54529ab5d5",
+					name: "observable",
+				},
+			],
+			tags: ["personal"],
+			year: 2025,
+		},
+		{
 			title: "visualnination: visualization of nina's sleep",
 			links: [
 				{
