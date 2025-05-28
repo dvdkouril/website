@@ -13,6 +13,17 @@
 			{#each thing.tags as tag}
 				<span style="border: 1px solid black;">{tag}</span>
 			{/each}
+
+			{#if thing.image}
+				<br />
+				<img src={thing.image} />
+			{/if}
 		</li>
 	{/each}
 </ul>
+
+<style>
+	ul {
+		list-style-type: none;
+	}
+</style>
