@@ -34,7 +34,7 @@
 				},
 			],
 			tags: ["hidive"],
-			year: 2024,
+			year: 2023,
 		},
 		{
 			title: "4DN annual meeting 2024 poster",
