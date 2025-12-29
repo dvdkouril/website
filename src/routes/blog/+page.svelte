@@ -6,5 +6,6 @@
 
 <h2>blogggg</h2>
 {#each data.posts as d}
-	<p>{d}</p>
+	<h3>{d.frontmatter.title}</h3>
+	<p>{d.content}</p>
 {/each}
