@@ -5,7 +5,7 @@ description: First post on my new blog
 tags: [svelte, web, notes]
 ---
 
-I used to have a blog.
+**I used to have a blog**.
 
 Back when I returned from my Erasmus exchange in Vienna and worked on wrapping
 up my master's thesis in Brno, I wrote weekly about my life. That carried all

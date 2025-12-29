@@ -1,5 +1,6 @@
 import type { PageServerLoad } from "./$types";
 import { parse } from "yaml";
+import { marked } from "marked";
 
 export const prerender = true;
 
@@ -26,7 +27,9 @@ export const load: PageServerLoad = () => {
 	//~ parse out the frontmatter: title, date, text preview
 	return {
 		posts: posts.map(([path, content]) => {
-			return { path, content: parseContent(content), frontmatter: parseFrontmatter(content) };
+			const c = parseContent(content);
+			const contentHtml = marked.parse(c);
+			return { path, content: c, contentHtml, frontmatter: parseFrontmatter(content) };
 			// ({ path, content })
 		})
 	};
