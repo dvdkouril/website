@@ -2,15 +2,45 @@
 	import type { PageProps } from "./$types";
 
 	let { data }: PageProps = $props();
+
+	const nicefyDate = (dateStr: string) => {
+		const date = new Date(dateStr);
+		return date.toLocaleDateString("en-US", {
+			year: "numeric",
+			month: "long",
+			day: "numeric",
+		});
+	};
 </script>
 
-<div>
+<div>&lt; back to <a href="/blog">all posts</a>.</div>
+
+<div id="container">
 	<h2>{data.frontmatter.title}</h2>
+	<p class="subtitle">
+		<i>Published on {nicefyDate(data.frontmatter.date)}</i>
+	</p>
 	{@html data.contentHtml}
 </div>
 
 <style>
 	* {
 		font-family: "Dosis", sans-serif;
+	}
+
+	#container {
+		width: 100%;
+		max-width: 630px;
+		font-size: 110%;
+	}
+
+	.subtitle {
+		font-size: 0.8em;
+		margin-top: 0;
+		text-align: right;
+	}
+
+	h2 {
+		margin-bottom: 5px;
 	}
 </style>
