@@ -2,7 +2,7 @@
 title: Personal blog in mid 2020s?!
 date: 2025-12-31
 description: First post on my new blog
-tags: [svelte, web, notes]
+place: Cambridge, MA
 ---
 
 *I used to have a blog*.
@@ -18,16 +18,17 @@ site. But I do miss it. I wonder what kind of memories I could have captured
 between those times and now. My life is significantly different: I'm married,
 we have a child, we live in Boston.
 
-So here I am, setting up this new reincarnation and thinking it might be
-worthwhile to put down some reasons why:
+So here I am, setting up this new reincarnation. I have no concrete plan for
+the type of content I want to write, or how frequent. Currently I'm pretty inspired by a couple of blogs: Tom Macwright, Cassidy, 
+
+I do, however, have a
+couple of *whys*:
+
 - I want to practice formulating ideas and writing about what I work on
 publicly. I believe it's easy to think you'd be good at this once the
 opportunity comes, but in practice it takes a real skill.
+- To get better at writing in my voice, without an LLM. I do a lot of writing
+for scientific publications, but that's a very different type of writing.
 - I love the idea of owning the place you contribute content to. If I was
 optimizing for reach and virality, I should probably post to Instagram or a
 similar social network. But that's not what we're doing here.
-
-I'm going to try to not use any LLMs, even though those have become a big part
-of my *scientific* writing recently.
-
-Test test testy test.
