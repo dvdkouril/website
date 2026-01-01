@@ -19,7 +19,7 @@
 	<h2>{data.frontmatter.title}</h2>
 	<p class="subtitle">
 		<i
-			>Written in {"Cambridge, MA"} and published on {nicefyDate(
+			>Written in {data.frontmatter.place} and published on {nicefyDate(
 				data.frontmatter.date,
 			)}</i
 		>
