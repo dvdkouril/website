@@ -18,20 +18,22 @@
 <div id="container">
 	<h2>{data.frontmatter.title}</h2>
 	<p class="subtitle">
-		<i>Published on {nicefyDate(data.frontmatter.date)}</i>
+		<i
+			>Written in {"Cambridge, MA"} and published on {nicefyDate(
+				data.frontmatter.date,
+			)}</i
+		>
 	</p>
 	{@html data.contentHtml}
 </div>
 
 <style>
-	* {
-		font-family: "Dosis", sans-serif;
-	}
-
 	#container {
 		width: 100%;
 		max-width: 630px;
 		font-size: 110%;
+		/* text-align: justify; */
+		line-height: 1.3;
 	}
 
 	.subtitle {

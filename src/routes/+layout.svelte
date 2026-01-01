@@ -1,4 +1,5 @@
 <script lang="ts">
+	import "../app.css";
 	import { page } from "$app/state";
 	import blueskyLogo from "$lib/logos/bluesky.svg";
 	import githubLogo from "$lib/logos/github.svg";

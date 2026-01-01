@@ -1,5 +1,4 @@
 <script lang="ts">
-	import "../app.css";
 	import blueskyLogo from "$lib/logos/bluesky.svg";
 	import githubLogo from "$lib/logos/github.svg";
 	import observableLogo from "$lib/logos/observable.svg";
@@ -297,10 +296,6 @@
 </div>
 
 <style>
-	* {
-		font-family: "Dosis", sans-serif;
-	}
-
 	:global(html),
 	:global(body) {
 		overflow-x: hidden;
@@ -313,23 +308,6 @@
 		text-align: justify;
 		line-height: 1.3;
 		font-size: 110%;
-	}
-
-	h1 {
-		padding-bottom: 0;
-		margin-bottom: 0;
-		font-size: 2.2em;
-	}
-
-	h2 {
-		color: #aaaaaa;
-		padding-top: 0;
-		margin-top: 0;
-		font-size: 1.65em;
-	}
-	h2 > pre {
-		padding-top: 0;
-		margin-top: 0;
 	}
 
 	h3 {
@@ -354,38 +332,6 @@
 		text-decoration-thickness: 5px;
 		text-decoration-color: blue;
 		color: white;
-	}
-
-	#links {
-		text-align: center;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 5px;
-	}
-	.socials-logo img {
-		height: 25px;
-	}
-	.socials-logo {
-		background-color: transparent;
-		font-size: 90%;
-		padding: 0px 5px 0px 5px;
-		margin-top: 5px;
-		text-decoration: none;
-	}
-	.socials-logo:hover {
-		background-color: transparent;
-		text-decoration: none;
-		color: white;
-	}
-	#job-search {
-		text-align: center;
-	}
-	#job-search p {
-		display: inline-block;
-		text-align: center;
-		border: 2px solid black;
-		padding: 10px 8px 10px 8px;
 	}
 
 	#webgpu-canvas {

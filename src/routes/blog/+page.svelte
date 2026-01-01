@@ -14,18 +14,23 @@
 	/>
 </svelte:head>
 
-<h2>posts.</h2>
-<ul>
-	{#each data.posts as d}
-		<li>
-			<a href={`/blog/${d.slug}`}>{d.frontmatter.title}</a>
-			{d.frontmatter.date}
-		</li>
-	{/each}
-</ul>
+<div id="container">
+	<h2>blog.</h2>
+	<ul>
+		{#each data.posts as d}
+			<li>
+				<a href={`/blog/${d.slug}`}>{d.frontmatter.title}</a>
+				{d.frontmatter.date}
+			</li>
+		{/each}
+	</ul>
+</div>
 
 <style>
-	* {
-		font-family: "Dosis", sans-serif;
+	#container {
+		width: 100%;
+		max-width: 630px;
+		font-size: 110%;
+		line-height: 1.3;
 	}
 </style>
