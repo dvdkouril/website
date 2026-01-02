@@ -1,4 +1,5 @@
 <script lang="ts">
+	import "../app.css";
 	import { page } from "$app/state";
 	import blueskyLogo from "$lib/logos/bluesky.svg";
 	import githubLogo from "$lib/logos/github.svg";
@@ -6,7 +7,14 @@
 	import scholarLogo from "$lib/logos/scholar.svg";
 	let { children } = $props();
 
-	const showHeaderFor = ["/", "/cv", "/work", "/thingsimade", "/about"];
+	const showHeaderFor = [
+		"/",
+		"/cv",
+		"/work",
+		"/thingsimade",
+		"/about",
+		"/blog",
+	];
 	const pageUrl = $derived(page.url.pathname);
 	const showHeader = $derived(showHeaderFor.some((v) => pageUrl === v));
 
@@ -70,6 +78,11 @@
 				<li>
 					>
 					<a href="/cv">cv.</a>
+					<!--> <a href="/cv" class:selected={currentPath === "/cv"}>cv.</a>-->
+				</li>
+				<li>
+					>
+					<a href="/blog">blog.</a>
 					<!--> <a href="/cv" class:selected={currentPath === "/cv"}>cv.</a>-->
 				</li>
 				<!-- <li> -->
