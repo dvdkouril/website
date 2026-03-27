@@ -12,8 +12,7 @@
 	const projects: Project[] = [
 		{
 			title: "Gosling 3D extension",
-			description:
-				"Integrating Gosling genomics visualization grammar into broader tooling.",
+			description: "Integrating 3D structures into the Gosling grammar.",
 			links: [
 				{
 					url: "https://3d.gosling-lang.org",
@@ -30,7 +29,7 @@
 		{
 			title: "uchimata",
 			description:
-				"A toolkit for visualization of 3D genome on the web and in computational notebooks.",
+				"A toolkit for visualization of 3D genome structures on the web and in computational notebooks.",
 			links: [
 				{
 					url: "https://github.com/hms-dbmi/uchimata",
@@ -38,7 +37,7 @@
 				},
 				{
 					url: "http://hms-dbmi.github.io/uchimata/",
-					label: "landing",
+					label: "landing page",
 				},
 				{
 					url: "https://doi.org/10.1093/bioinformatics/btag035",
@@ -54,8 +53,8 @@
 				"A framework for automated generation of narrated animations about molecular data.",
 			links: [
 				{
-					url: "todo",
-					label: "paper",
+					url: "https://doi.org/10.1109/TVCG.2021.3130670",
+					label: "paper @ IEEE TVCG",
 				},
 			],
 			category: "phd",
@@ -64,14 +63,24 @@
 			title: "HyperLabels",
 			description:
 				"Navigating and multiscale 3D environments with hierarchical labels.",
-			links: [],
+			links: [
+				{
+					url: "https://doi.org/10.1109/TVCG.2020.2975583",
+					label: "paper @ IEEE TVCG",
+				},
+			],
 			category: "phd",
 		},
 		{
 			title: "Labels on Levels",
 			description:
 				"Real-time textual labeling of multiscale 3D environments.",
-			links: [],
+			links: [
+				{
+					url: "https://doi.org/10.1109/TVCG.2018.2864491",
+					label: "paper @ IEEE VIS 2018",
+				},
+			],
 			category: "phd",
 		},
 		{
