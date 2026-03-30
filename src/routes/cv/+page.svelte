@@ -18,6 +18,13 @@
 </svelte:head>
 
 <div id="container">
+	<p class="pdf-downloads">
+		Most recent version of my academic CV (as PDF) available at: <a
+			href="https://assets.dvdkouril.xyz/cv.pdf"
+			target="_blank">assets.dvdkouril.xyz/cv.pdf</a
+		>
+	</p>
+
 	<h2>basic information.</h2>
 	<div style="margin-left: 40px">
 		<p>Full name: <strong>Dr.techn. Mgr. David Kouřil</strong>.</p>
@@ -336,5 +343,11 @@
 
 	mark {
 		background-color: #e0e7ff;
+	}
+
+	.pdf-downloads {
+		margin-top: 2rem;
+		padding: 0.75rem 1rem;
+		border: 1px solid #ddd;
 	}
 </style>
