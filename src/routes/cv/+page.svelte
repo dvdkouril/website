@@ -348,6 +348,6 @@
 	.pdf-downloads {
 		margin-top: 2rem;
 		padding: 0.75rem 1rem;
-		border: 1px solid #ddd;
+		border: 5px solid #e0e7ff;
 	}
 </style>
