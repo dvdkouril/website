@@ -91,6 +91,7 @@
 			],
 			year: 2021,
 			kind: "major",
+			image: "projects/molecumentary.png",
 		},
 		{
 			title: "HyperLabels",
@@ -104,6 +105,7 @@
 			],
 			year: 2020,
 			kind: "major",
+			image: "projects/hyperlabels.png",
 		},
 		{
 			title: "Labels on Levels",
@@ -117,6 +119,7 @@
 			],
 			year: 2018,
 			kind: "major",
+			image: "projects/lol.png",
 		},
 		{
 			title: "Master's thesis",
