@@ -318,9 +318,6 @@
 
 	a {
 		color: black;
-		font-size: 90%;
-		/*background-color: red;*/
-		padding: 0px 5px 0px 5px;
 		margin-top: 5px;
 		text-decoration: underline;
 		text-decoration-thickness: 5px;
