@@ -249,45 +249,35 @@
 <canvas id="webgpu-canvas"></canvas>
 <div id="container">
 	<p>
-		Hi, I'm <em>Postdoctoral Research Fellow</em> at
-		<a href="http://hms.harvard.edu">Harvard Medical School</a>
-		in Nils Gehlenborg's <a href="http://hidivelab.org">HIDIVE Lab</a>.
+		Hi, I'm a researcher whose work centers around data
+		visualization. I work at the intersection of disciplines,
+		bridging software development, computer graphics, and biology.
+		I'm especially interested in developing new interaction
+		techniques that make complex or unfamiliar type of data more
+		intuitive to grasp and explore.
+	<p> 
+		I work as a <em>Senior Researcher</em> at <a
+		href="https://www.ceitec.eu">CEITEC</a> in the <a
+		href="https://bioit.ceitec.eu/">Bioinformatics Core
+		Facility</a>. 
 	</p>
-
 	<p>
-		My research work centers around data visualization, with a special focus
-		on data with spatial components. I work at the intersection of
-		disciplines, bridging software development, computer graphics, and
-		biology. I'm especially interested in developing new interaction
-		techniques that make complex or unfamiliar type of data more intuitive
-		to grasp and explore.
+		Previously, I was a <em>Postdoctoral Research Fellow</em> at <a
+		href="http://hms.harvard.edu">Harvard Medical School</a> in
+		Nils Gehlenborg's <a href="http://hidivelab.org">HIDIVE
+		Lab</a>. At HIDIVE, I investigated <a
+		href="https://github.com/hms-dbmi/uchimata" >visualization of
+		3D chromatin structure</a> as a complement for the typical
+		chromosome conformation capture techniques used for determining
+		spatial organization of genomes.
 	</p>
-
 	<p>
-		At HIDIVE, I investigate visualization of 3D chromatin structure
-		predictions as a complement for the typical chromosome conformation
-		capture techniques used for determining spatial organization of genomes.
-		This involves developing <a href="https://github.com/hms-dbmi/uchimata"
-			>new web-based visualization software</a
-		>, as well as an interface for
-		<a href="https://github.com/hms-dbmi/uchimata-py"
-			>computational notebooks</a
-		>.
-	</p>
-
-	<p>
-		I received a doctoral degree from <a href="https://www.tuwien.at/en/"
-			>TU Wien</a
-		>. My thesis
-		<em
-			>Interactive Visualization of Dense and Multi-Scale Data for Science
-			Outreach</em
-		>
-		was awarded the
-		<a
-			href="https://www.eg.org/wp/eurographics-awards-programme/eurovis-phd-award/"
-			>EuroVis PhD Award in 2022</a
-		>.
+		I earned my doctoral degree at <a
+		href="https://www.tuwien.at/en/" >TU Wien</a >. My thesis <em
+		>Interactive Visualization of Dense and Multi-Scale Data for
+		Science Outreach</em > was awarded the <a
+		href="https://www.eg.org/wp/eurographics-awards-programme/eurovis-phd-award/"
+		>EuroVis PhD Award in 2022</a >.
 	</p>
 
 	<h3>Selected publications.</h3>
